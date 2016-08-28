@@ -24,7 +24,7 @@ class AddIp {
           'country': result.data.country
         }
         Addresses.insert(newAddress);
-        map.getCoords(newAddress.loc);
+        // map.getCoords(newAddress.loc);
       }
     });
     this.reset();

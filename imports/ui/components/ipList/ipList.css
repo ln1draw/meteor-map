@@ -1,0 +1,21 @@
+.ip-ul {
+  margin-left: 0px;
+  margin-top: 40px;
+}
+
+.ip-container {
+  list-style: none;
+}
+
+.ip-info-box {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.ip-info-box > h5 {
+  margin: 0px;
+}
+
+.remove-ip {
+  float: right;
+}

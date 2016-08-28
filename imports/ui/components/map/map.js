@@ -51,8 +51,6 @@ export default angular.module(name, [
 ]).component(name, {
   template,
   controllerAs: name,
-  bindings: {
-    addresses: '='
-  },
+  bindings: {},
   controller: Map
 });

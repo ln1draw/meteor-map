@@ -1,7 +1,9 @@
 <add-ip></add-ip>
-<ul>
-  <li ng-repeat="address in ipList.addresses">
-    <h5>{{address.ip}}:</h5> {{address.city}}, {{address.region}}, {{address.country}}
-    <remove-ip address="address"></remove-ip>
+<ul class="ip-ul">
+  <li ng-repeat="address in ipList.addresses | orderBy:'':true" class="ip-container">
+    <div class="ip-info-box">
+      <h5>{{address.ip}}:</h5> {{address.city}}, {{address.region}}, {{address.country}}
+    </div>
+    <remove-ip address="address" class="remove-ip"></remove-ip>
   </li>
 </ul>

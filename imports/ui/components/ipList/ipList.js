@@ -4,6 +4,8 @@ import angularMeteor from 'angular-meteor';
 import { Addresses } from '../../../api/addresses';
 import { name as AddIp } from '../addIp/addIp';
 import { name as RemoveIp } from '../removeIp/removeIp';
+
+import './ipList.css'
 import template from './ipList.html';
 
 class IpList {

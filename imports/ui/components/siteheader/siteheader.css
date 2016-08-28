@@ -1,0 +1,12 @@
+.header-body {
+  height: 100px;
+  background-color: #346376;
+  margin-top: -10px; /* A code smell--would not ship this code */
+  text-align: center;
+}
+
+.header-body-text {
+  padding-top: 25px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
